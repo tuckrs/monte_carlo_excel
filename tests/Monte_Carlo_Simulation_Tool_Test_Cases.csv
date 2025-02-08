@@ -1,0 +1,35 @@
+Requirement ID,Test Case,Expected Outcome
+REQ-1.1,Run Monte Carlo simulation on a simple model,Simulation runs without errors and generates expected probabilistic outputs.
+REQ-1.2,Test different sampling techniques,Simulation outputs vary based on selected sampling method.
+REQ-1.3,"Set iteration count to 10,000","Simulation completes with exactly 10,000 iterations."
+REQ-1.4,Set custom stopping criteria,Simulation stops when the defined criteria are met.
+REQ-2.1,Check if the tool installs as an Excel add-in,The tool appears as an Excel ribbon tab.
+REQ-2.2,Replace tool functions with standard Excel formulas,Model works without tool-specific functions.
+REQ-2.3,Perform undo/redo operations,Excel undo/redo works with tool functions.
+REQ-2.4,Verify UI accessibility via Excel ribbon,All key features are accessible via the ribbon UI.
+REQ-3.1,Select various probability distributions,Each distribution is applied correctly and generates expected values.
+REQ-3.2,Fit a distribution to historical data,The best-fit distribution is selected with an accuracy above a predefined threshold.
+REQ-3.3,Use percentile-based input parameters,Outputs reflect percentile-based distribution constraints.
+REQ-3.4,Manually define a custom distribution,User-defined distributions generate expected probabilistic outputs.
+REQ-4.1,Define correlations between two input variables,Correlated variables show appropriate statistical relationship.
+REQ-4.2,Use copulas for dependency modeling,Simulated dependencies match expected behavior.
+REQ-4.3,Visualize correlation with scatter plots,Generated scatter plots correctly reflect correlations.
+REQ-5.1,Run tornado analysis,Most sensitive variables appear correctly ranked in the tornado diagram.
+REQ-5.2,Generate spider chart for sensitivity,Spider chart accurately shows variable impact.
+REQ-5.3,Perform automatic ranking of input variables,Ranking is consistent with expected impact levels.
+REQ-5.4,Conduct stress testing,Stress test produces logical variations in outputs based on input changes.
+REQ-6.1,Model time-series behavior of stock prices,Generated time-series data follows expected trends.
+REQ-6.2,Simulate future demand using ARIMA,ARIMA model produces logical demand forecasts.
+REQ-7.1,Run risk-return optimization,Optimized solution minimizes risk while maintaining target return.
+REQ-7.2,Test efficient frontier analysis,Efficient frontier correctly identifies optimal portfolios.
+REQ-8.1,Generate histogram and box plots,Charts display expected distribution of results.
+REQ-8.2,Export results to Excel and PDF,Exported files match displayed simulation results.
+REQ-8.3,Generate customized reports,Reports include all key metrics and visualizations.
+REQ-9.1,Run large simulation with multi-threading,Simulation completes faster with multi-threading enabled.
+REQ-9.2,Perform 1 million iterations,Simulation completes without memory errors.
+REQ-9.3,Test multi-core CPU distribution,CPU utilization reflects multi-core processing.
+REQ-10.1,Check UI intuitiveness,Users can navigate tool without extensive training.
+REQ-10.2,Test in-app tutorials,Users can complete key tasks using tutorial guidance.
+REQ-10.3,Save and load simulation templates,Templates correctly restore all configurations.
+REQ-11.1,Test role-based access control,Only authorized users can access specific features.
+REQ-11.2,Verify license activation,Tool activates successfully with valid credentials.
