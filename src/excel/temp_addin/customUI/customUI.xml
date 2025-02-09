@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="MonteCarloTab" label="Monte Carlo">
+        <group id="SimulationGroup" label="Simulation">
+          <button id="RunSimulation" 
+                  label="Run Simulation" 
+                  size="large"
+                  imageMso="ChartInsert"
+                  onAction="MonteCarloModule.RunSimulation"/>
+          <button id="ShowHelp" 
+                  label="Help" 
+                  size="normal"
+                  imageMso="Help"
+                  onAction="MonteCarloModule.ShowHelp"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
